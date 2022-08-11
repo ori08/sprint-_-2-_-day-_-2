@@ -85,7 +85,7 @@ function renderChart() {
         if (showMode === 'prcentage') var text = `${chart.percentage}%`
         else var text = `${chart.value}`
         var posY = 275
-        // drawText(title.Name, canvas_height, title.posY)
+        drawText(title.Name, canvas_height, title.posY)
         drawText(text, chart.textPosition.x, posY, chart.color, chart.textPosition)
         drawText(chart.label, chart.textPosition.x, posY = 290, chart.color, chart.textPosition)
     })
